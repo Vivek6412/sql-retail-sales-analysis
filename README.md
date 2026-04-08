@@ -2,32 +2,41 @@
 
 ## 📌 Project Overview
 
-This project was built to understand how real-world retail systems manage and analyze sales data. I designed a relational database for an online store and used SQL queries to extract meaningful business insights.
+This project is a simple SQL-based system to store and analyze retail sales data. It models how an online store can manage customers, products, and orders, and then use queries to generate useful insights from that data.
+
+---
 
 ## 🎯 Objectives
 
 * Design a structured relational database
-* Store customer, product, and order data efficiently
-* Analyze sales performance using SQL queries
+* Store customer, product, and order data
+* Analyze sales data using SQL queries
+
+---
 
 ## 🧱 Database Design
 
-The database consists of the following tables:
+The database includes the following tables:
 
 * Customers (customer_id, name, city)
 * Products (product_id, name, category, price)
 * Orders (order_id, customer_id, order_date)
 * Order_Items (order_id, product_id, quantity)
 
-Relationships were created using foreign keys to maintain data integrity.
+Foreign key relationships are used to connect the tables and maintain consistency between orders, customers, and products.
+
+---
 
 ## ⚙️ Key Features
 
-* Implemented relational database design
-* Used SQL JOIN operations to combine data across tables
-* Performed data analysis using aggregate functions (SUM, GROUP BY, etc.)
+* Relational database design using multiple tables
+* Use of JOINs to combine data across tables
+* Aggregation queries using SUM and GROUP BY
+* Queries to extract business insights from raw data
 
-## 📊 SQL Analysis Performed
+---
+
+## 📊 SQL Analysis
 
 ### 🔹 Top-Selling Products
 
@@ -49,6 +58,8 @@ Relationships were created using foreign keys to maintain data integrity.
 
 ![Inactive Customers](inactive_customers.png)
 
+---
+
 ## 📸 Database Screenshots
 
 ### 🔹 Tables Created
@@ -63,22 +74,22 @@ Relationships were created using foreign keys to maintain data integrity.
 
 ![Data](all_tables_data.png)
 
+---
+
 ## 🛠️ Tools Used
 
 * MySQL Workbench
 * SQL
 
+---
+
 ## 🚀 How to Run
 
 1. Open MySQL Workbench
 2. Run the SQL script file (`retail_project.sql`)
-3. Execute the queries to analyze the data
+3. Execute the queries to view results
 
-## 🏆 What I Learned
-
-* How relational databases are structured in real-world applications
-* Writing efficient SQL queries using JOINs and aggregations
-* Extracting meaningful insights from raw data
+---
 
 ## 👤 Author
 
